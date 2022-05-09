@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Fake News Detection</title>
+<div class="top-container">
+        <h2> Fradulent News Detection </h2>
+    <style>
+	body {
+	margin: 0;
+	text-align: center;
+	background-image: url('static/images/ML1.png')}});
+	background-size: cover;
+	background-repeat: no-repeat;
+	}
+
+	h2 {
+	color: #182229;
+	Margin-top: 30px;
+	}
+
+	textarea {
+  	width: 50%;
+  	height: 150px;
+  	padding: 12px 20px;
+  	box-sizing: border-box;
+  	border: 2px;
+  	border-radius: 4px;
+  	background: transparent;
+  	font-size: 16px;
+  	color: white;
+  	resize: none;
+  	outline: none;
+	}
+
+	input[type=submit] {
+    	padding:5px 15px;
+    	background:#00ced1;
+    	border:0 none;
+    	cursor:pointer;
+    	-webkit-border-radius: 5px;
+    	border-radius: 5px;
+	}
+
+	.top-container {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	position: relative;
+	}
+
+	.ml {
+	position: absolute;
+	right: 500px;
+	top: 100px;
+	}
+
+	.bottom-container {
+	width: 50%
+	background-color: #66BFBF;
+	padding-top: 15px;
+	padding-bottom: 10px;
+	margin-top: 0px;
+	}
+
+	.footer-text {
+	color: #EAF6F6;
+	font-family: 'Verdana',sans-serif
+	</style>
+    </head>
+    </head>
+    <body>
+        <form action="/" method="POST">
+            <textarea name="txt" rows="4" cols="50">
+            </textarea>
+            <input type="submit" name="submit">
+        </form>
+        <br/> 
+        <div>
+            <h3>Enterd Text is: </h3>
+            {{ request.form['txt'] }}
+        </div>
+        <div>
+            <h3> The Ml Model Found That is a:</h3>
+        <p>{% if result == 0 %}
+            <p style="color: red;">Fake News</p>
+           {% else  %}
+            <p><p style="color:seagreen;">True News</p></p>
+           {% endif  %}
+        </p> 
+        </div> 
+	<div class="bottom-container">
+      <p class="footer-text"> Python/Deep learning - 5590 - Team Brute Force</p>
+    </div>      
+    </body>
+
+</html>
