@@ -1,5 +1,4 @@
-# Python-Deep learning course
-
+\
 
 <html>
 <head>
@@ -7,28 +6,9 @@
  </head>
  <body>
  <p>
-Name: Charunya Krishna Poola</br> 
- 
-Email: cpxyd@umsystem.edu</br>
-<hr>
-
 Name: Abhishek Reddy Narahari</br> 
 
 Email: anvcy@umsystem.edu</br>
-  
-<hr>
-Name: Sai Krishna Ponugoti</br>
-
-Email: ponugotisaikrishna@gmail.com</br>
-
-<hr>
-Name: Aaslesha madineni </br>
-
-Email: amyz6@umsystem.edu</br>
-
-Video Link:https://umsystem.zoom.us/rec/share/cTWcZ_MpdCD6NPZpyJ_uX7agnkUVnOzrinMq6MIggjFi3W5yBlknCxXBdSsd7wrT.iLKzTD6w_UQMTQFf?startTime=1652070446000
-
- </p>
 <p> 
 <b> Introduction</b></br>
 With the increase in usage of social media all around the world, It has become simple for anyone to publish news/articles through their own pages or a specified social media channel. Therefore, with the true news, fraudulent news has also become more popular</br>
